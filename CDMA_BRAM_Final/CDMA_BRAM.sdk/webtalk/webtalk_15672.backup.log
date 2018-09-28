@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Webtalk v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# 
+# Start of session at: Wed Jan 24 10:23:07 2018
+# Process ID: 15672
+# Current directory: J:/Papers3/CDMA_BRAM/CDMA_BRAM.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: J:/Papers3/CDMA_BRAM/CDMA_BRAM.sdk/webtalk/webtalk.log
+# Journal file: J:/Papers3/CDMA_BRAM/CDMA_BRAM.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
+# webtalk_init -webtalk_dir J:\\Papers3\\CDMA_BRAM\\CDMA_BRAM.sdk\\webtalk
+# webtalk_register_client -client project
+# webtalk_add_data -client project -key date_generated -value "星期三 一月 24 10:23:05 2018" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key product_version -value "SDK v2016.2" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key build_version -value "2016.2" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key os_platform -value "amd64" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key registration_id -value "" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key tool_flow -value "SDK" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key beta -value "false" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key route_design -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key target_family -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key target_device -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key target_package -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key target_speed -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key random_id -value "4ohmuvbkbidnp4a2r83epmt2ic" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key project_id -value "2016.2_18" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key project_iteration -value "18" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key os_name -value "" -context "user_environment"
+# webtalk_add_data -client project -key os_release -value "" -context "user_environment"
+# webtalk_add_data -client project -key cpu_name -value "" -context "user_environment"
+# webtalk_add_data -client project -key cpu_speed -value "" -context "user_environment"
+# webtalk_add_data -client project -key total_processors -value "" -context "user_environment"
+# webtalk_add_data -client project -key system_ram -value "" -context "user_environment"
+# webtalk_register_client -client sdk
+# webtalk_add_data -client sdk -key uid -value "1516758000826" -context "sdk\\\\hardware/1516758000826"
+# webtalk_add_data -client sdk -key isZynq -value "true" -context "sdk\\\\hardware/1516758000826"
+# webtalk_add_data -client sdk -key Processors -value "2" -context "sdk\\\\hardware/1516758000826"
+# webtalk_add_data -client sdk -key VivadoVersion -value "2016.2" -context "sdk\\\\hardware/1516758000826"
+# webtalk_add_data -client sdk -key Arch -value "zynq" -context "sdk\\\\hardware/1516758000826"
+# webtalk_add_data -client sdk -key Device -value "7z045" -context "sdk\\\\hardware/1516758000826"
+# webtalk_add_data -client sdk -key IsHandoff -value "true" -context "sdk\\\\hardware/1516758000826"
+# webtalk_transmit -clientid 1736121165 -regid "" -xml J:\\Papers3\\CDMA_BRAM\\CDMA_BRAM.sdk\\webtalk\\usage_statistics_ext_sdk.xml -html J:\\Papers3\\CDMA_BRAM\\CDMA_BRAM.sdk\\webtalk\\usage_statistics_ext_sdk.html -wdm J:\\Papers3\\CDMA_BRAM\\CDMA_BRAM.sdk\\webtalk\\sdk_webtalk.wdm -intro "<H3>SDK Usage Report</H3><BR>"
+# webtalk_terminate
+INFO: [Common 17-206] Exiting Webtalk at Wed Jan 24 10:23:18 2018...

@@ -1,0 +1,22 @@
+22:39:33 **** Auto Build of configuration Debug for project Hello_word ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hello_word_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:69:26: error: 'XPAR_PS7_DDR_0_S_AXI_HP0_BASEADDR' undeclared here (not in a function)
+ static u32 SourceAddr  = XPAR_PS7_DDR_0_S_AXI_HP0_BASEADDR;
+                          ^
+../src/helloworld.c:70:24: error: 'XPAR_PS7_DDR_0_S_AXI_HP2_BASEADDR' undeclared here (not in a function)
+ static u32 DestAddr  = XPAR_PS7_DDR_0_S_AXI_HP2_BASEADDR;
+                        ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:421:8: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32' [-Wformat=]
+        printf("Error in Comparison : Index : %x \n\r", Index);
+        ^
+../src/helloworld.c:421:8: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32' [-Wformat=]
+make: *** [src/helloworld.o] ´íÎó 1
+
+22:39:34 Build Finished (took 917ms)
+

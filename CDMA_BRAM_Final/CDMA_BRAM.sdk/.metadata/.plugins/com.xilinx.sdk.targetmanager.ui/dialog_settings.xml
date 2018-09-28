@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="CMDA_DRAM_wrapper.bit" key="CMDA_DRAM_wrapper_hw_platform_1-bitFile"/>
+	<item value="" key="Top_hw_platform_1-bmmFile"/>
+	<item value="CMDA_DRAM_wrapper.bit" key="CMDA_DRAM_wrapper_hw_platform_0-bitFile"/>
+	<item value="Auto Detect" key="CMDA_DRAM_wrapper_hw_platform_1-device"/>
+	<item value="" key="Top_hw_platform_0-bmmFile"/>
+	<item value="CMDA_DRAM_wrapper.mmi" key="CMDA_DRAM_wrapper_hw_platform_1-bmmFile"/>
+	<item value="" key="CMDA_DRAM_wrapper_hw_platform_0-bmmFile"/>
+	<item value="Auto Detect" key="CMDA_DRAM_wrapper_hw_platform_0-device"/>
+	<item value="Top.bit" key="Top_hw_platform_1-bitFile"/>
+	<item value="Auto Detect" key="Top_hw_platform_0-device"/>
+	<item value="false" key="Top_hw_platform_1-partial_bit"/>
+	<item value="Top.bit" key="Top_hw_platform_0-bitFile"/>
+	<item value="Auto Detect" key="Top_hw_platform_1-device"/>
+	<item value="false" key="Top_hw_platform_0-partial_bit"/>
+	<item value="Local" key="CMDA_DRAM_wrapper_hw_platform_0-target"/>
+	<item value="Top_hw_platform_0" key="programfpga.hwplatform"/>
+	<item value="false" key="CMDA_DRAM_wrapper_hw_platform_1-partial_bit"/>
+	<item value="Local" key="CMDA_DRAM_wrapper_hw_platform_1-target"/>
+	<item value="Local" key="Top_hw_platform_1-target"/>
+	<item value="false" key="CMDA_DRAM_wrapper_hw_platform_0-partial_bit"/>
+	<item value="Local" key="Top_hw_platform_0-target"/>
+</section>

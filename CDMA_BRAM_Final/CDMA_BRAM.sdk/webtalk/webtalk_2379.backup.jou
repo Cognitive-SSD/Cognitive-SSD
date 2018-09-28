@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# 
+# Start of session at: Tue Jan 23 13:40:22 2018
+# Process ID: 2379
+# Current directory: /home/liangshengwen/2018Cosmos/CDMA_BRAM/CDMA_BRAM.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/liangshengwen/2018Cosmos/CDMA_BRAM/CDMA_BRAM.sdk/webtalk/webtalk.log
+# Journal file: /home/liangshengwen/2018Cosmos/CDMA_BRAM/CDMA_BRAM.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

@@ -1,0 +1,120 @@
+19:20:55 **** Build of project CDM_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/bram_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/bram_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+cp: 正在访问‘../../../include’: Permission denied
+make[1]: *** [include] 错误 1
+make: *** [ps7_cortexa9_0/libsrc/bram_v4_1/src/make.include] 错误 2
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+cp: 正在访问‘../../../include’: Permission denied
+make[1]: *** [coresightps_dcc_includes] 错误 1
+make[1]: 由于错误目标“include”并未重新创建。
+make: *** [ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src/make.include] 错误 2
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+cp: 正在访问‘../../../include’: Permission denied
+make[1]: *** [include] 错误 1
+make: *** [ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src/make.include] 错误 2
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+cp: 正在访问‘../../../include’: Permission denied
+make[1]: *** [xddrps_includes] 错误 1
+make[1]: 由于错误目标“include”并未重新创建。
+make: *** [ps7_cortexa9_0/libsrc/ddrps_v1_0/src/make.include] 错误 2
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+cp: 正在访问‘../../../include’: Permission denied
+make[1]: *** [xdevcfg_includes] 错误 1
+make[1]: 由于错误目标“include”并未重新创建。
+make: *** [ps7_cortexa9_0/libsrc/devcfg_v3_4/src/make.include] 错误 2
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+cp: 正在访问‘../../../include’: Permission denied
+make[1]: *** [xdmaps_includes] 错误 1
+make[1]: 由于错误目标“include”并未重新创建。
+make: *** [ps7_cortexa9_0/libsrc/dmaps_v2_1/src/make.include] 错误 2
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+cp: 正在访问‘../../../include’: Permission denied
+make[1]: *** [xemacps_includes] 错误 1
+make[1]: 由于错误目标“include”并未重新创建。
+make: *** [ps7_cortexa9_0/libsrc/emacps_v3_2/src/make.include] 错误 2
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+cp: 正在访问‘../../../include’: Permission denied
+make[1]: *** [xgpiops_includes] 错误 1
+make[1]: 由于错误目标“include”并未重新创建。
+make: *** [ps7_cortexa9_0/libsrc/gpiops_v3_1/src/make.include] 错误 2
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+cp: 正在访问‘../../../include’: Permission denied
+make[1]: *** [xiicps_includes] 错误 1
+make[1]: 由于错误目标“include”并未重新创建。
+make: *** [ps7_cortexa9_0/libsrc/iicps_v3_2/src/make.include] 错误 2
+"Running Make include in ps7_cortexa9_0/libsrc/myreg_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/myreg_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+cp: 正在访问‘../../../include’: Permission denied
+make[1]: *** [include] 错误 1
+make: *** [ps7_cortexa9_0/libsrc/myreg_v1_0/src/make.include] 错误 2
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+cp: 正在访问‘../../../include’: Permission denied
+make[1]: *** [xqspips_includes] 错误 1
+make[1]: 由于错误目标“include”并未重新创建。
+make: *** [ps7_cortexa9_0/libsrc/qspips_v3_3/src/make.include] 错误 2
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+cp: 正在访问‘../../../include’: Permission denied
+make[1]: *** [scugic_includes] 错误 1
+make[1]: 由于错误目标“include”并未重新创建。
+make: *** [ps7_cortexa9_0/libsrc/scugic_v3_3/src/make.include] 错误 2
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+cp: 正在访问‘../../../include’: Permission denied
+make[1]: *** [scutimer_includes] 错误 1
+make[1]: 由于错误目标“include”并未重新创建。
+make: *** [ps7_cortexa9_0/libsrc/scutimer_v2_1/src/make.include] 错误 2
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+cp: 正在访问‘../../../include’: Permission denied
+make[1]: *** [scuwdt_includes] 错误 1
+make[1]: 由于错误目标“include”并未重新创建。
+make: *** [ps7_cortexa9_0/libsrc/scuwdt_v2_1/src/make.include] 错误 2
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_8/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+cp: 正在访问‘../../../include’: Permission denied
+make[1]: *** [xsdps_includes] 错误 1
+make[1]: 由于错误目标“include”并未重新创建。
+make: *** [ps7_cortexa9_0/libsrc/sdps_v2_8/src/make.include] 错误 2
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_5/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+cp: 正在访问‘../../../include’: Permission denied
+make[1]: *** [standalone_includes] 错误 1
+cp: 正在访问‘../../../../include’: Permission denied
+make[2]: *** [include] 错误 1
+make[1]: *** [profile_includes] 错误 2
+make[1]: 由于错误目标“include”并未重新创建。
+make: *** [ps7_cortexa9_0/libsrc/standalone_v5_5/src/make.include] 错误 2
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+cp: 正在访问‘../../../include’: Permission denied
+make[1]: *** [xuartps_includes] 错误 1
+make[1]: 由于错误目标“include”并未重新创建。
+make: *** [ps7_cortexa9_0/libsrc/uartps_v3_1/src/make.include] 错误 2
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+cp: 正在访问‘../../../include’: Permission denied
+make[1]: *** [xusbps_includes] 错误 1
+make[1]: 由于错误目标“include”并未重新创建。
+make: *** [ps7_cortexa9_0/libsrc/usbps_v2_4/src/make.include] 错误 2
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+cp: 正在访问‘../../../include’: Permission denied
+make[1]: *** [xadcps_includes] 错误 1
+make[1]: 由于错误目标“include”并未重新创建。
+make: *** [ps7_cortexa9_0/libsrc/xadcps_v2_2/src/make.include] 错误 2
+make: 由于错误目标“all”并未重新创建。
+
+19:20:59 Build Finished (took 4s.95ms)
+
