@@ -1,2 +1,2 @@
-# CDDR
-A Cognitive Disk for Deep Hashing Multimedia Data Retrieval
+# Cognitive Disk
+Cognitive Disk: A case for energy-efficient data retrieval with the deep learning SSD
