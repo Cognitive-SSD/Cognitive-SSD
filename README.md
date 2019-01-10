@@ -1,2 +1,2 @@
-# Cognitive Disk
-Cognitive Disk: A case for energy-efficient data retrieval with the deep learning SSD
+# Cognitive SSD
+Cognitive SSD: A Deep Learning engine for Energy-Efficient Data Retrieval
